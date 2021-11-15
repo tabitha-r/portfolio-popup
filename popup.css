@@ -74,3 +74,19 @@
     color:#9DA6B8;
     transition: .2s linear;
 }
+
+@media only screen and (max-width: 600px) {
+    .popup p {
+        font-size: 1.2rem;
+    }
+
+    .popup h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .popup p {
+        display: none;
+    }
+}
