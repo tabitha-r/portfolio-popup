@@ -21,7 +21,7 @@
     padding: 1.2rem;
     margin: 10px auto;
     background-color: white;
-    box-shadow: 4px 4px 0px #F8A4D8;
+    box-shadow: 4px 4px 0px hsl(40, 81%, 49%);
     border-radius: 25px;
     text-align: center;
     max-width: 75%;
@@ -35,7 +35,7 @@
 }
 
 .closePopup:hover {
-    color: #6C63FF;
+    color: hsl(40, 81%, 49%);
     transition: .2s linear;
     cursor: pointer;
 }
@@ -49,15 +49,16 @@
 }
 
 .popup h2 {
-    font-weight: 400;
+    font-weight: 700;
     font-size: 2rem;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Oxygen', sans-serif;
 }
 
 .popup p {
-    font-family: 'News Cycle', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.4rem;
     font-weight: 400;
+    margin: .5rem;
 }
 
 .popup img {
@@ -67,7 +68,7 @@
 
 .popup a {
     text-decoration: none;
-    color: #6C63FF;
+    color: hsl(40, 81%, 49%);
 }
 
 .popup a:hover {
